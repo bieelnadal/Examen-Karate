@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+    <xs:element name="Examen">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ID_Aspirante" type="xs:integer" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="Aspirantes">
         <xs:complexType>
             <xs:sequence>
@@ -18,6 +25,14 @@
                 <xs:element name="Tiempo_Dan_Anterior" type="xs:string" />
                 <xs:element name="FotoDNI" type="xs:string" />
                 <xs:element name="FotoCarnetGrados" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Requisitos_Aspirante">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="SolicitudHasta3Dan" type="xs:boolean" />
+                <xs:element name="DanySuperiorCurriculum" type="xs:boolean" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>

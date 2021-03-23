@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Aspirantes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ID_Aspirante" type="xs:integer" />
+                <xs:element name="Nombres" type="xs:string" />
+                <xs:element name="Apellidos" type="xs:string" />
+                <xs:element name="DNI" type="xs:string" />
+                <xs:element name="Teléfono" type="xs:string" />
+                <xs:element name="Dirección" type="xs:string" />
+                <xs:element name="Fecha_nacimiento" type="xs:string" />
+                <xs:element name="Dan" type="xs:string" />
+                <xs:element name="Cinturón" type="xs:string" />
+                <xs:element name="Fecha_ingreso_Dan" type="xs:string" />
+                <xs:element name="FotoAspirante" type="xs:string" />
+                <xs:element name="Tiempo_Dan_Anterior" type="xs:string" />
+                <xs:element name="FotoDNI" type="xs:string" />
+                <xs:element name="FotoCarnetGrados" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

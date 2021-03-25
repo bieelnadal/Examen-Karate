@@ -1,0 +1,288 @@
+
+Examen{
+    background-color: #162944;
+    font-size: 20px;
+    color: white;
+    font-family: "Lucida Console",
+    Monaco,
+    monospace;
+}
+Aspirantes{
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display:block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position:relative;
+    width: 300px;
+    margin: 5px;
+
+}
+
+Requisitos_Aspirante{
+
+}
+Jueces{
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position:relative;
+    width: 300px;
+    margin: 5px
+
+}
+Criterio_Valoracion{
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position:relative;
+    width: 300px;
+    margin: 5px
+
+}
+Tribunal{
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position:relative;
+    width: 300px;
+    margin: 5px
+
+    
+}
+p{
+    font-weight: bold;
+    display:block;
+    border: 3px solid;
+    table-layout:auto;
+
+}
+ID_Aspirante{
+    display:block;
+}
+Nombres {
+    display: block;
+}
+Apellidos {
+    display: block;
+}
+DNI {
+    display: block;
+}
+DNI {
+    display: block;
+}
+Telefono {
+    display: block;
+}
+Direccion {
+    display: block;
+}
+Fecha_nacimiento {
+    display: block;
+}
+Dan {
+    display: block;
+}
+Cinturon {
+    display: block;
+}
+Fecha_ingreso_Dan {
+    display: block;
+}
+FotoAspirante {
+    display: block;
+}
+Tiempo_Dan_Anterior {
+    display: block;
+}
+FotoDNI {
+    display: block;
+}
+FotoCarnetGrados {
+    display: block;
+}
+ID_jueces {
+    display: block;
+}
+Nombres {
+    display: block;
+}
+Apellidos {
+    display: block;
+}
+DiplomaJuez {
+    display: block;
+}
+Indumentaria {
+    display: block;
+}
+AseoPersonal {
+    display: block;
+}
+Numero_jueces {
+    display: block;
+}
+Calificacion_personal {
+    display: block;
+}
+CinturonNegroCuartoDan {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px
+
+
+}
+CinturonNegroTercerDan {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px
+
+
+}
+CinturonNegroSegundoDan {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px
+
+}
+CinturonNegroPrimerDan {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px
+
+}
+CinturonNegro {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px
+
+}
+Hasta3erDan {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px
+
+}
+QuintoDanySuperior {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px
+
+}
+SuspendeExamen {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px
+
+}
+CinturonNegroCuartoDan {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px
+
+}
+Meritos {
+    border-collapse: collapse;
+    border: 3px solid rgb(196, 24, 153);
+    display: block;
+    table-layout: fixed;
+    padding: 20px;
+    caption-side: bottom;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+    margin: 5px;
+
+}

@@ -12,28 +12,28 @@
     <xs:element name="Aspirantes">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="ID_Aspirante" type="xs:integer" />
-                <xs:element name="Nombres" type="xs:string" />
-                <xs:element name="Apellidos" type="xs:string" />
-                <xs:element name="DNI" type="xs:string" />
-                <xs:element name="Telefono" type="xs:string" />
-                <xs:element name="Direccion" type="xs:string" />
-                <xs:element name="Fecha_nacimiento" type="xs:string" />
-                <xs:element name="Dan" type="xs:string" />
-                <xs:element name="Cinturon" type="xs:string" />
-                <xs:element name="Fecha_ingreso_Dan" type="xs:string" />
-                <xs:element name="FotoAspirante" type="xs:string" />
-                <xs:element name="Tiempo_Dan_Anterior" type="xs:string" />
-                <xs:element name="FotoDNI" type="xs:string" />
-                <xs:element name="FotoCarnetGrados" type="xs:string" />
+                <xs:element name="ID_Aspirante" type="xs:integer" maxOccurs="unbounded" />
+                <xs:element name="Nombres" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="Apellidos" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="DNI" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="Telefono" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="Direccion" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="Fecha_nacimiento" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="Dan" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="Cinturon" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="Fecha_ingreso_Dan" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="FotoAspirante" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="Tiempo_Dan_Anterior" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="FotoDNI" type="xs:string" maxOccurs="unbounded" />
+                <xs:element name="FotoCarnetGrados" type="xs:string" maxOccurs="unbounded" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>
     <xs:element name="Requisitos_Aspirante">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="SolicitudHasta3Dan" type="xs:boolean" />
-                <xs:element name="DanySuperiorCurriculum" type="xs:boolean" />
+                <xs:element name="SolicitudHasta3Dan" type="xs:boolean" maxOccurs="unbounded" />
+                <xs:element name="DanySuperiorCurriculum" type="xs:boolean" maxOccurs="unbounded" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -41,10 +41,10 @@
     <xs:element name="Jueces">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="ID_jueces" type="xs:integer"></xs:element>
-                <xs:element name="Nombres" type="xs:string"></xs:element>
-                <xs:element name="Apellidos" type="xs:string"></xs:element>
-                <xs:element name="DiplomaJuez" type="xs:boolean"></xs:element>
+                <xs:element name="ID_jueces" type="xs:integer" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Nombres" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Apellidos" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="DiplomaJuez" type="xs:boolean" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -52,11 +52,11 @@
     <xs:element name="Criterio_Valoracion">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Indumentaria" type="xs:integer"></xs:element>
-                <xs:element name="AseoPersonal" type="xs:integer"></xs:element>
-                <xs:element name="EjecucionTecnica" type="xs:integer"></xs:element>
-                <xs:element name="Valores" type="xs:integer"></xs:element>
-                <xs:element name="Respuestas" type="xs:integer"></xs:element>
+                <xs:element name="Indumentaria" type="xs:integer" maxOccurs="unbounded"></xs:element>
+                <xs:element name="AseoPersonal" type="xs:integer" maxOccurs="unbounded"></xs:element>
+                <xs:element name="EjecucionTecnica" type="xs:integer" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Valores" type="xs:integer" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Respuestas" type="xs:integer" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -64,8 +64,8 @@
     <xs:element name="Tribunal">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Numero_jueces" type="xs:integer"></xs:element>
-                <xs:element name="Calificacion_personal" type="xs:integer"></xs:element>
+                <xs:element name="Numero_jueces" type="xs:integer" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Calificacion_personal" type="xs:integer" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -73,10 +73,10 @@
     <xs:element name="SuspendeExamen">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="ID_aspirante" type="xs:integer"></xs:element>
-                <xs:element name="SuspendeParcial" type="xs:boolean"></xs:element>
-                <xs:element name="SuspendeTotal" type="xs:boolean"></xs:element>
-                <xs:element name="SuspendeSegundaFase" type="xs:boolean"></xs:element>
+                <xs:element name="ID_aspirante" type="xs:integer" maxOccurs="unbounded"></xs:element>
+                <xs:element name="SuspendeParcial" type="xs:boolean" maxOccurs="unbounded"></xs:element>
+                <xs:element name="SuspendeTotal" type="xs:boolean" maxOccurs="unbounded"></xs:element>
+                <xs:element name="SuspendeSegundaFase" type="xs:boolean" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -84,8 +84,8 @@
     <xs:element name="QuintoDanySuperior">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Kata" type="xs:string"></xs:element>
-                <xs:element name="Coloquio" type="xs:string"></xs:element>
+                <xs:element name="Kata" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Coloquio" type="xs:string" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -93,10 +93,10 @@
     <xs:element name="Hasta3erDan">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Tecnicas" type="xs:string"></xs:element>
-                <xs:element name="Kata" type="xs:string"></xs:element>
-                <xs:element name="Kumite" type="xs:string"></xs:element>
-                <xs:element name="Campeonatos" type="xs:string"></xs:element>
+                <xs:element name="Tecnicas" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kata" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kumite" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Campeonatos" type="xs:string" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -104,12 +104,12 @@
     <xs:element name="CinturonNegro">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Tecnica_directa" type="xs:string"></xs:element>
-                <xs:element name="Tecnicas_circulares" type="xs:string"></xs:element>
-                <xs:element name="Tecnica_pierna" type="xs:string"></xs:element>
-                <xs:element name="Teoria" type="xs:string"></xs:element>
-                <xs:element name="Kata" type="xs:string"></xs:element>
-                <xs:element name="Kumite" type="xs:string"></xs:element>
+                <xs:element name="Tecnica_directa" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnicas_circulares" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnica_pierna" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Teoria" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kata" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kumite" type="xs:string" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -117,14 +117,14 @@
     <xs:element name="CinturonNegroPrimerDan">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Tecnica_Defensa" type="xs:string"></xs:element>
-                <xs:element name="Tecnica_Pierna" type="xs:string"></xs:element>
-                <xs:element name="Tecnica_DirectaIndirecta" type="xs:string"></xs:element>
-                <xs:element name="Tecnica_Combinada" type="xs:string"></xs:element>
-                <xs:element name="Teoria" type="xs:string"></xs:element>
-                <xs:element name="Kata" type="xs:string"></xs:element>
-                <xs:element name="Kumite" type="xs:string"></xs:element>
-                <xs:element name="Aplicacion_Tecnica" type="xs:string"></xs:element>
+                <xs:element name="Tecnica_Defensa" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnica_Pierna" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnica_DirectaIndirecta" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnica_Combinada" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Teoria" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kata" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kumite" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Aplicacion_Tecnica" type="xs:string" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -132,18 +132,18 @@
     <xs:element name="CinturonNegroSegundoDan">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Tecnica_Base" type="xs:string"></xs:element>
-                <xs:element name="Tecnica_Directa" type="xs:string"></xs:element>
-                <xs:element name="Tecnica_IndirectaCircular" type="xs:string"></xs:element>
-                <xs:element name="Tecnica_Pierna" type="xs:string"></xs:element>
-                <xs:element name="Tecnica_Combinada" type="xs:string"></xs:element>
-                <xs:element name="Teoria" type="xs:string"></xs:element>
-                <xs:element name="Kata" type="xs:string"></xs:element>
-                <xs:element name="Kumite" type="xs:string"></xs:element>
-                <xs:element name="Campeonatos" type="xs:string"></xs:element>
-                <xs:element name="Tecnicas" type="xs:string"></xs:element>
-                <xs:element name="Aplicaciones" type="xs:string"></xs:element>
-                <xs:element name="Aplicacion_Tecnica" type="xs:string"></xs:element>
+                <xs:element name="Tecnica_Base" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnica_Directa" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnica_IndirectaCircular" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnica_Pierna" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnica_Combinada" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Teoria" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kata" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kumite" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Campeonatos" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnicas" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Aplicaciones" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Aplicacion_Tecnica" type="xs:string" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -151,15 +151,15 @@
     <xs:element name="CinturonNegroTercerDan">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Variaciones_Tecnica" type="xs:string"></xs:element>
-                <xs:element name="Teoria" type="xs:string"></xs:element>
-                <xs:element name="Kata" type="xs:string"></xs:element>
-                <xs:element name="Kumite" type="xs:string"></xs:element>
-                <xs:element name="Campeonatos" type="xs:string"></xs:element>
-                <xs:element name="Aplicacion_Tecnica" type="xs:string"></xs:element>
-                <xs:element name="Tecnica" type="xs:string"></xs:element>
-                <xs:element name="Aplicaciones" type="xs:string"></xs:element>
-                <xs:element name="Demo_libre" type="xs:string"></xs:element>
+                <xs:element name="Variaciones_Tecnica" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Teoria" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kata" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kumite" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Campeonatos" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Aplicacion_Tecnica" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Tecnica" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Aplicaciones" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Demo_libre" type="xs:string" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -167,11 +167,11 @@
     <xs:element name="CinturonNegroCuartoDan">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Coloquio" type="xs:string"></xs:element>
-                <xs:element name="Kata" type="xs:string"></xs:element>
-                <xs:element name="Kumite" type="xs:string"></xs:element>
-                <xs:element name="Aplicacion_Tecnica" type="xs:string"></xs:element>
-                <xs:element name="Demo_libre" type="xs:string"></xs:element>
+                <xs:element name="Coloquio" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kata" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Kumite" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Aplicacion_Tecnica" type="xs:string" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Demo_libre" type="xs:string" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -179,10 +179,10 @@
     <xs:element name="Meritos">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="ID_Aspirante" type="xs:integer"></xs:element>
-                <xs:element name="Edad_Aspirante" type="xs:integer"></xs:element>
-                <xs:element name="LicenciaActualizada" type="xs:boolean"></xs:element>
-                <xs:element name="TrabajoEscrito" type="xs:boolean"></xs:element>
+                <xs:element name="ID_Aspirante" type="xs:integer" maxOccurs="unbounded"></xs:element>
+                <xs:element name="Edad_Aspirante" type="xs:integer" maxOccurs="unbounded"></xs:element>
+                <xs:element name="LicenciaActualizada" type="xs:boolean" maxOccurs="unbounded"></xs:element>
+                <xs:element name="TrabajoEscrito" type="xs:boolean" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

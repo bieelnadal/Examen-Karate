@@ -2,6 +2,7 @@
 <?xml-stylesheet href="ddl.css" type="text/css"?>
 <Examen>
     <Aspirantes>
+        <p>Aspirante</p>
         <ID_Aspirante>20</ID_Aspirante>
         <Nombres>Biel</Nombres>
         <Apellidos>Nadal</Apellidos>
@@ -24,6 +25,7 @@
     </Requisitos_Aspirante>
 
     <Jueces>
+        <p>Jueces</p>
         <ID_jueces>20</ID_jueces>
         <Nombres>Rubén</Nombres>
         <Apellidos>Juarez</Apellidos>
@@ -31,19 +33,22 @@
     </Jueces>
 
     <Criterio_Valoracion>
-        <Indumentaria></Indumentaria>
-        <AseoPersonal></AseoPersonal>
+        <p>Criterio Valoración</p>
+        <Indumentaria>Traje Rojo</Indumentaria>
+        <AseoPersonal>True</AseoPersonal>
         <EjecucionTecnica></EjecucionTecnica>
         <Valores></Valores>
         <Respuestas></Respuestas>
     </Criterio_Valoracion>
 
     <Tribunal>
-        <Numero_jueces></Numero_jueces>
-        <Calificacion_personal></Calificacion_personal>
+        <p>Tribunal</p>
+        <Numero_jueces>5</Numero_jueces>
+        <Calificacion_personal>8</Calificacion_personal>
     </Tribunal>
 
     <SuspendeExamen>
+        <p>Suspende Examen</p>
         <ID_aspirante></ID_aspirante>
         <SuspendeParcial></SuspendeParcial>
         <SuspendeTotal></SuspendeTotal>
@@ -51,11 +56,13 @@
     </SuspendeExamen>
 
     <QuintoDanySuperior>
+        <p>Quinto Dany Superior</p>
         <Kata></Kata>
         <Coloquio></Coloquio>
     </QuintoDanySuperior>
 
     <Hasta3erDan>
+        <p>Hasta Tercer Dan</p>
         <Tecnicas></Tecnicas>
         <Kata></Kata>
         <Kumite></Kumite>
@@ -63,6 +70,7 @@
     </Hasta3erDan>
 
     <CinturonNegro>
+        <p>Cinturón Negro</p>
         <Tecnica_directa></Tecnica_directa>
         <Tecnicas_circulares></Tecnicas_circulares>
         <Tecnica_pierna></Tecnica_pierna>
@@ -72,6 +80,7 @@
     </CinturonNegro>
 
     <CinturonNegroPrimerDan>
+        <p>Cinturón Negro Primer Dan</p>
         <Tecnica_Defensa></Tecnica_Defensa>
         <Tecnica_Pierna></Tecnica_Pierna>
         <Tecnica_DirectaIndirecta></Tecnica_DirectaIndirecta>
@@ -83,6 +92,7 @@
     </CinturonNegroPrimerDan>
 
     <CinturonNegroSegundoDan>
+        <p>Cinturón Negro Segundo Dan</p>
         <Tecnica_Base></Tecnica_Base>
         <Tecnica_Directa></Tecnica_Directa>
         <Tecnica_IndirectaCircular></Tecnica_IndirectaCircular>
@@ -98,6 +108,7 @@
     </CinturonNegroSegundoDan>
 
     <CinturonNegroTercerDan>
+        <p>Cinturón Negro Tercer Dan</p>
         <Variaciones_Tecnica></Variaciones_Tecnica>
         <Teoria></Teoria>
         <Kata></Kata>
@@ -110,6 +121,7 @@
     </CinturonNegroTercerDan>
 
     <CinturonNegroCuartoDan>
+        <p>Cinturón Negro Cuarto Dan</p>
         <Coloquio></Coloquio>
         <Kata></Kata>
         <Kumite></Kumite>
@@ -118,6 +130,7 @@
     </CinturonNegroCuartoDan>
 
     <Meritos>
+        <p>Méritos</p>
         <ID_Aspirante></ID_Aspirante>
         <Edad_Aspirante></Edad_Aspirante>
         <LicenciaActualizada></LicenciaActualizada>

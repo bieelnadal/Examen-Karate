@@ -1,4 +1,3 @@
-
 Examen{
     background-color: #162944;
     font-size: 20px;
@@ -20,12 +19,8 @@ Aspirantes{
     width: 300px;
     margin: 5px;
     float:right;
-
 }
 
-Requisitos_Aspirante{
-
-}
 Jueces{
     border-collapse: collapse;
     border: 3px solid rgb(196, 24, 153);
@@ -39,7 +34,6 @@ Jueces{
     width: 300px;
     margin: 5px;
     float:right;
-
 }
 Criterio_Valoracion{
     border-collapse: collapse;
@@ -54,7 +48,6 @@ Criterio_Valoracion{
     width: 300px;
     margin: 5px;
     float:right;
-
 }
 Tribunal{
     border-collapse: collapse;
@@ -68,16 +61,13 @@ Tribunal{
     position:relative;
     width: 300px;
     margin: 5px;
-    float:right;
-
-    
+    float:right;   
 }
 p{
     font-weight: bold;
     display:block;
     border: 3px solid;
     table-layout:auto;
-
 }
 ID_Aspirante{
     display:block;
@@ -160,9 +150,6 @@ CinturonNegroCuartoDan {
     position: relative;
     width: 300px;
     margin: 5px;
-
-
-
 }
 CinturonNegroTercerDan {
     border-collapse: collapse;
@@ -176,9 +163,6 @@ CinturonNegroTercerDan {
     position: relative;
     width: 300px;
     margin: 5px;
-
-
-
 }
 CinturonNegroSegundoDan {
     border-collapse: collapse;
@@ -192,8 +176,6 @@ CinturonNegroSegundoDan {
     position: relative;
     width: 300px;
     margin: 5px;
-  
-
 }
 CinturonNegroPrimerDan {
     border-collapse: collapse;
@@ -207,8 +189,6 @@ CinturonNegroPrimerDan {
     position: relative;
     width: 300px;
     margin: 5px;
-  
-
 }
 CinturonNegro {
     border-collapse: collapse;
@@ -222,8 +202,6 @@ CinturonNegro {
     position: relative;
     width: 300px;
     margin: 5px;
-
-
 }
 Hasta3erDan {
     border-collapse: collapse;
@@ -237,8 +215,6 @@ Hasta3erDan {
     position: relative;
     width: 300px;
     margin: 5px;
- 
-
 }
 QuintoDanySuperior {
     border-collapse: collapse;
@@ -252,8 +228,6 @@ QuintoDanySuperior {
     position: relative;
     width: 300px;
     margin: 5px;
-
-
 }
 SuspendeExamen {
     border-collapse: collapse;
@@ -267,8 +241,6 @@ SuspendeExamen {
     position: relative;
     width: 300px;
     margin: 5px;
-   
-
 }
 CinturonNegroCuartoDan {
     border-collapse: collapse;
@@ -282,8 +254,6 @@ CinturonNegroCuartoDan {
     position: relative;
     width: 300px;
     margin: 5px;
-
-
 }
 Meritos {
     border-collapse: collapse;
@@ -297,6 +267,4 @@ Meritos {
     position: relative;
     width: 300px;
     margin: 5px;
-
-
 }

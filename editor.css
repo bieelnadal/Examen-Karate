@@ -1,6 +1,8 @@
+/*Color del fondo de la pagina principal*/
 body {
     background: #162944;
 }
+/*Titulo de la pagina*/
 h1 {
     text-align: center;
     
@@ -15,12 +17,14 @@ h1 {
 
 
 }
+/*CSS de los botones*/
 .button{
     position: relative;
-    top: 100px;
+    grid-auto-flow: initial;
+    text-align: center;
 }
 .button_slide {
-    width: 200px;
+    width: auto;
     justify-content: center;
     align-items: center;
     margin: 3em auto;
@@ -65,17 +69,26 @@ h1 {
     text-align: center;
     
 }
-
-    ul {
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        display: inline-grid;
-        grid-auto-flow: row;
-        grid-gap: 24px;
-        justify-items: bottom;
-        margin: auto;
-      }
+@media (min-width: 500px) {
+  .button {
+    grid-auto-flow:initial;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 3em auto;
+  }
+}
+/*CSS del footer*/
+ul {
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  display: inline-grid;
+  grid-auto-flow: row;
+  grid-gap: 24px;
+  justify-items: bottom;
+  margin: auto;
+}
       
       @media (min-width: 500px) {
         ul {

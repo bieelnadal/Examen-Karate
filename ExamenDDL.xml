@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examen>
+    <Aspirantes>
+        <ID_Aspirante>20</ID_Aspirante>
+        <Nombres>Biel</Nombres>
+        <Apellidos>Nadal</Apellidos>
+        <DNI>66666666V</DNI>
+        <Telefono>606660789</Telefono>
+        <Direccion>C/Hola 1</Direccion>
+        <Fecha_nacimiento>10/10/2010</Fecha_nacimiento>
+        <Dan>3</Dan>
+        <Cinturon>Negro</Cinturon>
+        <Fecha_ingreso_Dan>10/10/2011</Fecha_ingreso_Dan>
+        <FotoAspirante>No Photo</FotoAspirante>
+        <Tiempo_Dan_Anterior>3 meses</Tiempo_Dan_Anterior>
+        <FotoDNI>No Photo</FotoDNI>
+        <FotoCarnetGrados>No Photo</FotoCarnetGrados>
+    </Aspirantes>
+
+    <Requisitos_Aspirante>
+        <SolicitudHasta3Dan></SolicitudHasta3Dan>
+        <DanySuperiorCurriculum></DanySuperiorCurriculum>
+    </Requisitos_Aspirante>
+
+    <Jueces>
+        <ID_jueces></ID_jueces>
+        <Nombres></Nombres>
+        <Apellidos></Apellidos>
+        <DiplomaJuez></DiplomaJuez>
+    </Jueces>
+
+    <Criterio_Valoracion>
+        <Indumentaria></Indumentaria>
+        <AseoPersonal></AseoPersonal>
+        <EjecucionTecnica></EjecucionTecnica>
+        <Valores></Valores>
+        <Respuestas></Respuestas>
+    </Criterio_Valoracion>
+
+    <Tribunal>
+        <Numero_jueces></Numero_jueces>
+        <Calificacion_personal></Calificacion_personal>
+    </Tribunal>
+
+    <SuspendeExamen>
+        <ID_aspirante></ID_aspirante>
+        <SuspendeParcial></SuspendeParcial>
+        <SuspendeTotal></SuspendeTotal>
+        <SuspendeSegundaFase></SuspendeSegundaFase>
+    </SuspendeExamen>
+
+    <QuintoDanySuperior>
+        <Kata></Kata>
+        <Coloquio></Coloquio>
+    </QuintoDanySuperior>
+
+    <Hasta3erDan>
+        <Tecnicas></Tecnicas>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Campeonatos></Campeonatos>
+    </Hasta3erDan>
+
+    <CinturonNegro>
+        <Tecnica_directa></Tecnica_directa>
+        <Tecnicas_circulares></Tecnicas_circulares>
+        <Tecnica_pierna></Tecnica_pierna>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+    </CinturonNegro>
+
+    <CinturonNegroPrimerDan>
+        <Tecnica_Defensa></Tecnica_Defensa>
+        <Tecnica_Pierna></Tecnica_Pierna>
+        <Tecnica_DirectaIndirecta></Tecnica_DirectaIndirecta>
+        <Tecnica_Combinada></Tecnica_Combinada>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+    </CinturonNegroPrimerDan>
+
+    <CinturonNegroSegundoDan>
+        <Tecnica_Base></Tecnica_Base>
+        <Tecnica_Directa></Tecnica_Directa>
+        <Tecnica_IndirectaCircular></Tecnica_IndirectaCircular>
+        <Tecnica_Pierna></Tecnica_Pierna>
+        <Tecnica_Combinada></Tecnica_Combinada>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Campeonatos></Campeonatos>
+        <Tecnicas></Tecnicas>
+        <Aplicaciones></Aplicaciones>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+    </CinturonNegroSegundoDan>
+
+    <CinturonNegroTercerDan>
+        <Variaciones_Tecnica></Variaciones_Tecnica>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Campeonatos></Campeonatos>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+        <Tecnica></Tecnica>
+        <Aplicaciones></Aplicaciones>
+        <Demo_libre></Demo_libre>
+    </CinturonNegroTercerDan>
+
+    <CinturonNegroCuartoDan>
+        <Coloquio></Coloquio>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+        <Demo_libre></Demo_libre>
+    </CinturonNegroCuartoDan>
+
+    <Meritos>
+        <ID_Aspirante></ID_Aspirante>
+        <Edad_Aspirante></Edad_Aspirante>
+        <LicenciaActualizada></LicenciaActualizada>
+        <TrabajoEscrito></TrabajoEscrito>
+    </Meritos>
+</Examen>

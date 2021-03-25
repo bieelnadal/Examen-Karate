@@ -8,6 +8,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="Aspirantes">
         <xs:complexType>
             <xs:sequence>
@@ -47,6 +48,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="Criterio_Valoracion">
         <xs:complexType>
             <xs:sequence>
@@ -58,6 +60,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="Tribunal">
         <xs:complexType>
             <xs:sequence>
@@ -66,6 +69,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="SuspendeExamen">
         <xs:complexType>
             <xs:sequence>
@@ -76,6 +80,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="QuintoDanySuperior">
         <xs:complexType>
             <xs:sequence>
@@ -84,6 +89,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="Hasta3erDan">
         <xs:complexType>
             <xs:sequence>
@@ -94,6 +100,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="CinturonNegro">
         <xs:complexType>
             <xs:sequence>
@@ -106,6 +113,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="CinturonNegroPrimerDan">
         <xs:complexType>
             <xs:sequence>
@@ -120,6 +128,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="CinturonNegroSegundoDan">
         <xs:complexType>
             <xs:sequence>
@@ -138,6 +147,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="CinturonNegroTercerDan">
         <xs:complexType>
             <xs:sequence>
@@ -153,6 +163,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="CinturonNegroCuartoDan">
         <xs:complexType>
             <xs:sequence>
@@ -164,6 +175,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="Meritos">
         <xs:complexType>
             <xs:sequence>

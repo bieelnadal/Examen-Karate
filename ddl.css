@@ -19,6 +19,7 @@ Aspirantes{
     position:relative;
     width: 300px;
     margin: 5px;
+    float:right;
 
 }
 
@@ -36,7 +37,8 @@ Jueces{
     letter-spacing: 1px;
     position:relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+    float:right;
 
 }
 Criterio_Valoracion{
@@ -50,7 +52,8 @@ Criterio_Valoracion{
     letter-spacing: 1px;
     position:relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+    float:right;
 
 }
 Tribunal{
@@ -64,7 +67,8 @@ Tribunal{
     letter-spacing: 1px;
     position:relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+    float:right;
 
     
 }
@@ -155,7 +159,8 @@ CinturonNegroCuartoDan {
     letter-spacing: 1px;
     position: relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+
 
 
 }
@@ -170,7 +175,8 @@ CinturonNegroTercerDan {
     letter-spacing: 1px;
     position: relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+
 
 
 }
@@ -185,7 +191,8 @@ CinturonNegroSegundoDan {
     letter-spacing: 1px;
     position: relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+  
 
 }
 CinturonNegroPrimerDan {
@@ -199,7 +206,8 @@ CinturonNegroPrimerDan {
     letter-spacing: 1px;
     position: relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+  
 
 }
 CinturonNegro {
@@ -213,7 +221,8 @@ CinturonNegro {
     letter-spacing: 1px;
     position: relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+
 
 }
 Hasta3erDan {
@@ -227,7 +236,8 @@ Hasta3erDan {
     letter-spacing: 1px;
     position: relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+ 
 
 }
 QuintoDanySuperior {
@@ -241,7 +251,8 @@ QuintoDanySuperior {
     letter-spacing: 1px;
     position: relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+
 
 }
 SuspendeExamen {
@@ -255,7 +266,8 @@ SuspendeExamen {
     letter-spacing: 1px;
     position: relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+   
 
 }
 CinturonNegroCuartoDan {
@@ -269,7 +281,8 @@ CinturonNegroCuartoDan {
     letter-spacing: 1px;
     position: relative;
     width: 300px;
-    margin: 5px
+    margin: 5px;
+
 
 }
 Meritos {
@@ -284,5 +297,6 @@ Meritos {
     position: relative;
     width: 300px;
     margin: 5px;
+
 
 }

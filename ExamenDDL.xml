@@ -49,10 +49,10 @@
 
     <SuspendeExamen>
         <p>Suspende Examen</p>
-        <ID_aspirante></ID_aspirante>
-        <SuspendeParcial></SuspendeParcial>
-        <SuspendeTotal></SuspendeTotal>
-        <SuspendeSegundaFase></SuspendeSegundaFase>
+        <ID_aspirante>20</ID_aspirante>
+        <SuspendeParcial>True</SuspendeParcial>
+        <SuspendeTotal>False</SuspendeTotal>
+        <SuspendeSegundaFase>False</SuspendeSegundaFase>
     </SuspendeExamen>
 
     <QuintoDanySuperior>
@@ -71,9 +71,9 @@
 
     <CinturonNegro>
         <p>Cinturón Negro</p>
-        <Tecnica_directa></Tecnica_directa>
-        <Tecnicas_circulares></Tecnicas_circulares>
-        <Tecnica_pierna></Tecnica_pierna>
+        <Tecnica_directa>Puño</Tecnica_directa>
+        <Tecnicas_circulares>Giro</Tecnicas_circulares>
+        <Tecnica_pierna>Patada</Tecnica_pierna>
         <Teoria></Teoria>
         <Kata></Kata>
         <Kumite></Kumite>
@@ -81,10 +81,10 @@
 
     <CinturonNegroPrimerDan>
         <p>Cinturón Negro Primer Dan</p>
-        <Tecnica_Defensa></Tecnica_Defensa>
-        <Tecnica_Pierna></Tecnica_Pierna>
+        <Tecnica_Defensa>Bloqueo</Tecnica_Defensa>
+        <Tecnica_Pierna>Patada</Tecnica_Pierna>
         <Tecnica_DirectaIndirecta></Tecnica_DirectaIndirecta>
-        <Tecnica_Combinada></Tecnica_Combinada>
+        <Tecnica_Combinada>Giro mas patada y puñetazo</Tecnica_Combinada>
         <Teoria></Teoria>
         <Kata></Kata>
         <Kumite></Kumite>
@@ -131,8 +131,8 @@
 
     <Meritos>
         <p>Méritos</p>
-        <ID_Aspirante></ID_Aspirante>
-        <Edad_Aspirante></Edad_Aspirante>
+        <ID_Aspirante>20</ID_Aspirante>
+        <Edad_Aspirante>18</Edad_Aspirante>
         <LicenciaActualizada></LicenciaActualizada>
         <TrabajoEscrito></TrabajoEscrito>
     </Meritos>

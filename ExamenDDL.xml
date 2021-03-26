@@ -36,14 +36,14 @@
         <p>Criterio Valoración</p>
         <Indumentaria>Traje Rojo</Indumentaria>
         <AseoPersonal>True</AseoPersonal>
-        <EjecucionTecnica></EjecucionTecnica>
-        <Valores></Valores>
-        <Respuestas></Respuestas>
+        <EjecucionTecnica>20</EjecucionTecnica>
+        <Valores>2</Valores>
+        <Respuestas>5</Respuestas>
     </Criterio_Valoracion>
 
     <Tribunal>
         <p>Tribunal</p>
-        <Numero_jueces>5</Numero_jueces>
+        <Numero_jueces>3</Numero_jueces>
         <Calificacion_personal>8</Calificacion_personal>
     </Tribunal>
 
@@ -109,14 +109,14 @@
 
     <CinturonNegroTercerDan>
         <p>Cinturón Negro Tercer Dan</p>
-        <Variaciones_Tecnica></Variaciones_Tecnica>
+        <Variaciones_Tecnica>Bastante bien presentados los golpes</Variaciones_Tecnica>
         <Teoria></Teoria>
         <Kata></Kata>
         <Kumite></Kumite>
         <Campeonatos></Campeonatos>
         <Aplicacion_Tecnica></Aplicacion_Tecnica>
-        <Tecnica></Tecnica>
-        <Aplicaciones></Aplicaciones>
+        <Tecnica>Patada giratoria</Tecnica>
+        <Aplicaciones>Ataque</Aplicaciones>
         <Demo_libre></Demo_libre>
     </CinturonNegroTercerDan>
 
